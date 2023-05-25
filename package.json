@@ -1,6 +1,6 @@
 {
   "name": "@rubyquest/jsondb",
-  "version": "1.0.6",
+  "version": "1.0.11",
   "description": "A simple typescript library for storing and querying information from .json-based database. Amazing alternative for @replit/database as it allows for multiple tables.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,8 @@
     "access":"public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc && npm publish"
   },
   "repository": {
     "type": "git",
