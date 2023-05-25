@@ -29,6 +29,7 @@ class RubyDatabase {
             const fileContents = fs.readFileSync(this.filename, "utf-8");
             return JSON.parse(fileContents);
         } catch (error) {
+            console.log("[RUBYDB] There was an error when loading the database.")
             return {};
         }
     }
